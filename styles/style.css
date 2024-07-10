@@ -5,10 +5,12 @@ body{
     padding: 0;
     margin: 0;
 }
-.azeret-mono {
-    font-family: "Azeret Mono", monospace;
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
 }
 main{
     max-width: 1140px;
@@ -33,7 +35,6 @@ header{
     align-items: center;
     justify-content: center;
     gap: 32px;
-    /* margin: 26px auto 44px auto; */
     padding-top: 26px;
     padding-bottom: 44px;
     margin: auto;
@@ -72,7 +73,6 @@ header{
     line-height: 26px;
     opacity: 0.7;
 }
-
 /* Header section ends here */
 
 /* Why Web Development section starts here */
