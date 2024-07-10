@@ -196,7 +196,7 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-bottom: 47px;
+    margin-bottom: 100px;
 }
 .target > h2{
     font-size: 32px;
@@ -266,3 +266,70 @@ header{
     background-color: rgba(255, 223, 0, 0.05);
 }
 /* Target section end here */
+
+/* Support section starts here */
+.support{
+    border-radius: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.541)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+}
+.support > h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.support > p{
+    padding-top: 16px;
+    padding-bottom: 49px;
+    max-width: 606px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+}
+.support > form{
+    max-width: 685px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+.support > form > input{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    height: 58px;
+    color: rgb(13, 19, 33);
+}
+.support > form > input[type=text]{
+    box-sizing: border-box;
+    width: 548px;
+}
+.support > form > input[type=text]::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(13, 19, 33, 0.4);
+    padding-left: 20px;
+}
+.support > form > input[type=submit]{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+/* Support section ends here */
