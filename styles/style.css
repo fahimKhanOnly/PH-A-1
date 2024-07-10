@@ -50,6 +50,14 @@ header{
     line-height: 23px;
     cursor: pointer;
     text-decoration: none;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.banner-contents > a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    border: 1px solid black;
+    padding: 20px 23px;
 }
 .banner-heading{
     display: flex;
@@ -148,6 +156,12 @@ header{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.why-web-development-btn:hover{
+    background-color: rgb(13, 19, 33);
+    color: white;
 }
 .second-content{
     margin: 32px 0;
@@ -270,7 +284,7 @@ header{
 /* Support section starts here */
 .support{
     border-radius: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.541)), url(../assets/handshake.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.625), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.625)), url(../assets/handshake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -332,6 +346,13 @@ header{
     font-weight: 600;
     line-height: 23px;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.support > form > input[type=submit]:hover{
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 /* Support section ends here */
 
