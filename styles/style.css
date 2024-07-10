@@ -39,7 +39,7 @@ header{
     padding-bottom: 44px;
     margin: auto;
 }
-.banner-contents > button{
+.banner-contents > a{
     background-color: rgb(13, 19, 33);
     border: none;
     border-radius: 8px;
@@ -49,6 +49,7 @@ header{
     font-weight: 600;
     line-height: 23px;
     cursor: pointer;
+    text-decoration: none;
 }
 .banner-heading{
     display: flex;
@@ -153,21 +154,21 @@ header{
 }
 /* Why Web Development section ends here */
 
-/* My Inspiration section started here */
-.my-inspiration{
+/* Inspiration section started here */
+.inspiration{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 103px;
 }
-.my-inspiration > h1{
+.inspiration > h1{
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     text-align: center;
     margin-bottom: 24px;
 }
-.my-inspiration > p{
+.inspiration > p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -175,16 +176,93 @@ header{
     opacity: 0.7;
     max-width: 852px;
 }
-.my-inspiration > div{
+.inspiration > div{
     border-radius: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     margin: 48px 0;
 }
-.my-inspiration > div > iframe{
+.inspiration > div > iframe{
     min-width: 1076px;
     height: 550px;
     margin: 32px;
     border-radius: 16px;
 }
-/* My Inspiration section ends here */
+/* Inspiration section ends here */
+
+/* Target section starts here */
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 47px;
+}
+.target > h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.target > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 852px;
+    opacity: 0.7;
+}
+.targeted-skills{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 299px;
+    gap: 24px;
+    margin-top: 24px;
+}
+.targeted-skills > div{
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 364px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.targeted-skills > div > h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    padding-top: 24px;
+}
+.targeted-skills > div > p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+.targeted-skills > div > a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgb(13, 19, 33);
+}
+.target-html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* Target section end here */
